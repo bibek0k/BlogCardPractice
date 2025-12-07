@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4d04eff;
+      font-family: 'Figtree Web', sans-serif;
+    }
+
+
+    .card{
+      display: flex;
+      flex-direction: column;
+      width: 270px;
+      height: 380px;
+      justify-content: center;
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      border: solid black 1px;
+      box-shadow: 5px 6px 0px 2px black;
+      margin-bottom: 10px;
+
+    }
+
+    .illustration{
+      width: 270px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .profile{
+      display: flex;
+      flex-direction: row;
+    }
+    .profile img{
+      width: 25px;
+      height: 25px;
+    }
+    .profile p{
+      margin: 0;
+      padding: 3px 0 0 7px;
+      font-weight: 600;
+    }
+
+    button{
+      background-color: #f4d04eff;
+      border: none;
+      padding: 5px;
+      width: 70px;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+    p{
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+     
+    }
+    h3{
+      font-weight: 800;
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img class="illustration" src="/WebProject/blog-preview-card-main/assets/images/illustration-article.svg" alt="">
+    <button>Learning</button>
+    <p>Published 21 Dec 2023</p>
+    <h3>HTML & CSS foundations</h3>
+    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <div class="profile">
+      <img src="/WebProject/blog-preview-card-main/assets/images/image-avatar.webp" alt="">
+      <p>Greg Hooper</p>
+    </div>
+    
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bibek</a>.
+  </div>
+</body>
+</html>
